@@ -1,38 +1,74 @@
 [
     {
-        "merged": "C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_single_row.xml",
-        "source": "C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\layout\\list_single_row.xml"
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/layout/main.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/layout/main.xml"
     },
     {
-        "merged": "C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\highscore.xml",
-        "source": "C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\layout\\highscore.xml"
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/layout/info.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/layout/info.xml"
     },
     {
-        "merged": "C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_row.xml",
-        "source": "C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\layout\\list_row.xml"
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/layout/menu.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/layout/menu.xml"
     },
     {
-        "merged": "C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\highscoreform.xml",
-        "source": "C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\layout\\highscoreform.xml"
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/layout/list_row.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/layout/list_row.xml"
     },
     {
-        "merged": "C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
-        "source": "C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\layout\\main.xml"
+        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_single_row.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\layout\\list_single_row.xml"
     },
     {
-        "merged": "C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\runnershigh.xml",
-        "source": "C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\layout\\runnershigh.xml"
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/layout/highscore.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/layout/highscore.xml"
     },
     {
-        "merged": "C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\menu.xml",
-        "source": "C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\layout\\menu.xml"
+        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_row.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\layout\\list_row.xml"
     },
     {
-        "merged": "C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\info.xml",
-        "source": "C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\layout\\info.xml"
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/layout/test.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/layout/test.xml"
     },
     {
-        "merged": "C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\test.xml",
-        "source": "C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\layout\\test.xml"
+        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\highscoreform.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\layout\\highscoreform.xml"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\highscore.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\layout\\highscore.xml"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/layout/list_single_row.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/layout/list_single_row.xml"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\runnershigh.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\layout\\runnershigh.xml"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/layout/highscoreform.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/layout/highscoreform.xml"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\menu.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\layout\\menu.xml"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/layout/runnershigh.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/layout/runnershigh.xml"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\info.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\layout\\info.xml"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\test.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\layout\\test.xml"
     }
 ]
