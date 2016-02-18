@@ -35,6 +35,7 @@ import android.content.DialogInterface;
 import android.database.Cursor;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
@@ -63,8 +64,11 @@ public class HighScoreActivity extends Activity {
 	private static final String GET_HIGHSCORE_URL = Settings.HIGHSCORE_GET_URL; // "http://rh.fidrelity.at/best.php";
 	
 	private TableLayout highscoreTable;
+	private Context context2;
 	
 	// ---------------------------------------------------
+
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
 		
@@ -77,6 +81,7 @@ public class HighScoreActivity extends Activity {
         highscoreTable = (TableLayout) findViewById(R.id.highscoreTable);
         
         final Context context = this;
+		context2 = context;
         
         final Handler handler = new Handler();
 
@@ -97,15 +102,16 @@ public class HighScoreActivity extends Activity {
         
 
         findViewById(R.id.buttonOnlineHighscore).setOnClickListener(new OnClickListener() {
-			
+
 			public void onClick(View v) {
 
 				Toast.makeText(context, R.string.hs_loading_online, Toast.LENGTH_SHORT).show();
-				
+
 				handler.postDelayed(new Runnable() {
-					
+
 					public void run() {
-						showOnlineScore();
+						//showOnlineScore(); to try to gix network issue
+						executeNetworkThread();
 					}
 				}, 500);
 			}
@@ -214,11 +220,19 @@ public class HighScoreActivity extends Activity {
     	} while(c.moveToNext());
     }
     
-    private void showOnlineScore() {
+    private void showOnlineScore(){
     	if(!isOnline()) {
-    		Toast.makeText(this, R.string.hs_error_no_internet, Toast.LENGTH_SHORT).show();
+    		//Toast.makeText(this, R.string.hs_error_no_internet, Toast.LENGTH_SHORT).show();
+			Log.e("showOnlineScore", "no internet dummy");
     	} else {
-        	highscoreTable.removeAllViews();
+        	try {
+				runOnUiThread(new Runnable() {
+					@Override
+					public void run() {
+						highscoreTable.removeAllViews();
+					}
+				});
+			} catch (Exception e) { e.printStackTrace(); }
 	    	try {
 
 				String getURL = GET_HIGHSCORE_URL + "?size=" + Integer.toString(Settings.onlineHighscoreLimit);
@@ -246,14 +260,37 @@ public class HighScoreActivity extends Activity {
 						scoreString = jArray.getJSONObject(i).getString("score");
 						timeStamp = jArray.getJSONObject(i).getString("created_at");
 
-						View additional = new TextView(this, null, android.R.attr.textAppearanceSmallInverse);
+						/* to use inside runnable thread below */
+						final String nameString2 = nameString;
+						final String scoreString2 = scoreString;
+						final String timeStamp2 = timeStamp;
+						final int j = i;
+
+						try {
+							runOnUiThread(new Runnable() {
+								@Override
+								public void run() {
+									View additional = new TextView(context2, null, android.R.attr.textAppearanceSmallInverse);
+									((TextView)additional).setText(timeStamp2);
+
+									LayoutParams paramsOfAdditional = new LayoutParams(0, LayoutParams.WRAP_CONTENT, 3.0f);
+									paramsOfAdditional.gravity = Gravity.CENTER_VERTICAL | Gravity.END;
+									additional.setLayoutParams(paramsOfAdditional);
+
+									generateLine("" + (j + 1), scoreString2, nameString2, additional);
+								}
+							});
+						} catch (Exception e) {
+							e.printStackTrace();
+						}
+						/*View additional = new TextView(this, null, android.R.attr.textAppearanceSmallInverse);
 						((TextView)additional).setText(timeStamp);
 
 						LayoutParams paramsOfAdditional = new LayoutParams(0, LayoutParams.WRAP_CONTENT, 3.0f);
 						paramsOfAdditional.gravity = Gravity.CENTER_VERTICAL | Gravity.END;
 						additional.setLayoutParams(paramsOfAdditional);
 
-						generateLine(""+(i+1), scoreString, nameString, additional);
+						generateLine("" + (i + 1), scoreString, nameString, additional);*/
 					}
 				} catch (IOException e) { Log.e("Show online score", "IOException"); }
 				/* END OF CHANCE CODE */
@@ -387,5 +424,17 @@ public class HighScoreActivity extends Activity {
 		}
 
 		return result.toString();
+	}
+
+	class Task implements Runnable {
+		@Override
+		public void run() {
+			android.os.Process.setThreadPriority(android.os.Process.THREAD_PRIORITY_BACKGROUND);
+			showOnlineScore();
+		}
+	}
+
+	private void executeNetworkThread() {
+		new Thread(new Task()).start();
 	}
 }

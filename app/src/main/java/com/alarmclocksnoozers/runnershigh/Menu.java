@@ -35,7 +35,7 @@ public class Menu extends Activity {
         
 
 		loadMessage = Toast.makeText(getApplicationContext(), "loading game...", Toast.LENGTH_SHORT );
-		loadMessage.setGravity(Gravity.CENTER|Gravity.CENTER, 0, 0);
+		loadMessage.setGravity(Gravity.CENTER, 0, 0);
         
 		gameIntent = new Intent (this, main.class);
 		mPlayButton = (android.widget.Button)findViewById(R.id.startButton);

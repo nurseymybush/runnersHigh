@@ -94,7 +94,7 @@ public class Player{
 		playerSprite.updatePosition(x, y);
 		playerSprite.tryToSetNextFrame();
 		
-		if(jumpingsoundplayed==false){
+		if(!jumpingsoundplayed) {
 			SoundManager.playSound(3, 1);
 			jumpingsoundplayed = true;
 		}
