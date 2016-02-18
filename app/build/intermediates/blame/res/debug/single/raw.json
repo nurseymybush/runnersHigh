@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\raw\\ninek.mp3",
-        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\raw\\ninek.mp3"
+        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\raw\\gamebackground.mp3",
+        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\raw\\gamebackground.mp3"
     },
     {
-        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\raw\\threek.wma",
-        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\raw\\threek.wma"
+        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\raw\\ninek.mp3",
+        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\raw\\ninek.mp3"
     },
     {
         "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/raw/trampoline.mp3",
@@ -16,6 +16,14 @@
         "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/raw/reset.wma"
     },
     {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\raw\\petenicesplash.mp3",
+        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\raw\\petenicesplash.mp3"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\raw\\threek.wma",
+        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\raw\\threek.wma"
+    },
+    {
         "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/raw/ninek.mp3",
         "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/raw/ninek.mp3"
     },
@@ -24,8 +32,8 @@
         "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/raw/threek.wma"
     },
     {
-        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\raw\\petenicesplash.mp3",
-        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\raw\\petenicesplash.mp3"
+        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\raw\\trampoline.mp3",
+        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\raw\\trampoline.mp3"
     },
     {
         "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/raw/gamebackground.mp3",
@@ -36,55 +44,51 @@
         "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/raw/slow.mp3"
     },
     {
-        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\raw\\slow.mp3",
-        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\raw\\slow.mp3"
+        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\raw\\jump.mp3",
+        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\raw\\jump.mp3"
     },
     {
-        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\raw\\deathsound.mp3",
-        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\raw\\deathsound.mp3"
-    },
-    {
-        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/raw/bonus.mp3",
-        "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/raw/bonus.mp3"
-    },
-    {
-        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\raw\\bonus.mp3",
-        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\raw\\bonus.mp3"
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/raw/gtm_analytics",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.4.0/res/raw/gtm_analytics"
     },
     {
         "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/raw/save.mp3",
         "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/raw/save.mp3"
     },
     {
-        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/raw/petenicesplash.mp3",
-        "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/raw/petenicesplash.mp3"
-    },
-    {
-        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/raw/deathsound.mp3",
-        "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/raw/deathsound.mp3"
-    },
-    {
-        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\raw\\trampoline.mp3",
-        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\raw\\trampoline.mp3"
-    },
-    {
-        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/raw/jump.mp3",
-        "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/raw/jump.mp3"
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/raw/bonus.mp3",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/raw/bonus.mp3"
     },
     {
         "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\raw\\reset.wma",
         "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\raw\\reset.wma"
     },
     {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\raw\\slow.mp3",
+        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\raw\\slow.mp3"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/raw/petenicesplash.mp3",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/raw/petenicesplash.mp3"
+    },
+    {
         "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\raw\\save.mp3",
         "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\raw\\save.mp3"
     },
     {
-        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\raw\\jump.mp3",
-        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\raw\\jump.mp3"
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/raw/deathsound.mp3",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/raw/deathsound.mp3"
     },
     {
-        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\raw\\gamebackground.mp3",
-        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\raw\\gamebackground.mp3"
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/raw/jump.mp3",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/raw/jump.mp3"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\raw\\bonus.mp3",
+        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\raw\\bonus.mp3"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\raw\\deathsound.mp3",
+        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\raw\\deathsound.mp3"
     }
 ]

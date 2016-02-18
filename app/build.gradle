@@ -5,13 +5,9 @@ android {
     buildToolsVersion "23.0.2"
 
     defaultConfig {
-        applicationId "com.alarmclocksnoozers.runnershigh"
-        minSdkVersion 8
+        applicationId "com.unocode.runnershigh_enhanced"
+        minSdkVersion 9
         targetSdkVersion 23
-        compileOptions {
-            sourceCompatibility JavaVersion.VERSION_1_5
-            targetCompatibility JavaVersion.VERSION_1_5
-        }
     }
 
     buildTypes {
@@ -19,5 +15,8 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
+    }
+    dependencies {
+        compile 'com.google.android.gms:play-services:8.4.0'
     }
 }

@@ -1,31 +1,23 @@
 [
     {
-        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/info_programming.jpg",
-        "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/drawable/info_programming.jpg"
-    },
-    {
-        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/logo_sony.png",
-        "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/drawable/logo_sony.png"
-    },
-    {
-        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\info_christian_winkler.jpg",
-        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\info_christian_winkler.jpg"
-    },
-    {
         "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/info_background.jpg",
         "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/drawable/info_background.jpg"
     },
     {
-        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\menu_button_highscore.png",
-        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\menu_button_highscore.png"
+        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logo_fhs.png",
+        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\logo_fhs.png"
     },
     {
-        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\info_background.jpg",
-        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\info_background.jpg"
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/drawable/abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/info_francois_weber.jpg",
-        "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/drawable/info_francois_weber.jpg"
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/mr_ic_play_light.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable/mr_ic_play_light.xml"
     },
     {
         "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/highscore_submit.png",
@@ -40,44 +32,96 @@
         "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/drawable/info_stefan_ebner.jpg"
     },
     {
-        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\info_andre_schweighofer.jpg",
-        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\info_andre_schweighofer.jpg"
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/info_programming.jpg",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/drawable/info_programming.jpg"
     },
     {
-        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\info_mario_reichmann.jpg",
-        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\info_mario_reichmann.jpg"
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/logo_sony.png",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/drawable/logo_sony.png"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\info_design.jpg",
+        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\info_design.jpg"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_connecting.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.4.0/res/drawable/cast_ic_notification_connecting.xml"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/info_francois_weber.jpg",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/drawable/info_francois_weber.jpg"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\info_stefan_ebner.jpg",
+        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\info_stefan_ebner.jpg"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/drawable/abc_spinner_textfield_background_material.xml"
     },
     {
         "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/highscore_online.png",
         "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/drawable/highscore_online.png"
     },
     {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_full_material.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/drawable/abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_light.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_mono_dark.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable/mr_ic_media_route_mono_dark.xml"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
         "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/highscore_background.jpg",
         "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/drawable/highscore_background.jpg"
     },
     {
-        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logo_mma.png",
-        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\logo_mma.png"
+        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon.png",
+        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\icon.png"
     },
     {
-        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\highscore_local.png",
-        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\highscore_local.png"
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_dark.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_plus_signin_btn_icon_dark.xml"
     },
     {
         "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/info_christian_winkler.jpg",
         "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/drawable/info_christian_winkler.jpg"
     },
     {
-        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\highscore_background.jpg",
-        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\highscore_background.jpg"
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_google_signin_btn_icon_dark.xml"
     },
     {
-        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\info_michael_webersdorfer.jpg",
-        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\info_michael_webersdorfer.jpg"
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/mr_ic_play_dark.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable/mr_ic_play_dark.xml"
     },
     {
-        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\info_francois_weber.jpg",
-        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\info_francois_weber.jpg"
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_light.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/drawable/abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_google_signin_btn_icon_light.xml"
     },
     {
         "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/highscore_local.png",
@@ -88,64 +132,92 @@
         "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/drawable/menu_button_information.png"
     },
     {
-        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logo_fhs.png",
-        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\logo_fhs.png"
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/info_mario_reichmann.jpg",
         "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/drawable/info_mario_reichmann.jpg"
     },
     {
-        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\menu_background.jpg",
-        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\menu_background.jpg"
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_dark.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/mr_ic_settings_dark.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable/mr_ic_settings_dark.xml"
     },
     {
         "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/info_andre_schweighofer.jpg",
         "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/drawable/info_andre_schweighofer.jpg"
     },
     {
-        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logo_mmt.png",
-        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\logo_mmt.png"
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/mr_ic_cast_light.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable/mr_ic_cast_light.xml"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/mr_ic_settings_light.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable/mr_ic_settings_light.xml"
     },
     {
         "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/logo_fhs.png",
         "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/drawable/logo_fhs.png"
     },
     {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/mr_ic_cast_dark.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable/mr_ic_cast_dark.xml"
+    },
+    {
         "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/info_hans_christian_kogler.jpg",
         "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/drawable/info_hans_christian_kogler.jpg"
     },
     {
-        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\info_hans_christian_kogler.jpg",
-        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\info_hans_christian_kogler.jpg"
+        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\menu_button_highscore.png",
+        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\menu_button_highscore.png"
     },
     {
-        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\menu_button_information.png",
-        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\menu_button_information.png"
+        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\info_michael_webersdorfer.jpg",
+        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\info_michael_webersdorfer.jpg"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\menu_background.jpg",
+        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\menu_background.jpg"
     },
     {
         "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/menu_button_highscore.png",
         "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/drawable/menu_button_highscore.png"
     },
     {
-        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\highscore_submit.png",
-        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\highscore_submit.png"
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/drawable/abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\highscore_line.png",
-        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\highscore_line.png"
+        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\info_francois_weber.jpg",
+        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\info_francois_weber.jpg"
     },
     {
-        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\info_manuel_lehermayr.jpg",
-        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\info_manuel_lehermayr.jpg"
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/drawable/abc_cab_background_internal_bg.xml"
     },
     {
         "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/info_manuel_lehermayr.jpg",
         "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/drawable/info_manuel_lehermayr.jpg"
     },
     {
-        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\info_stefan_ebner.jpg",
-        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\info_stefan_ebner.jpg"
+        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\info_programming.jpg",
+        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\info_programming.jpg"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\highscore_background.jpg",
+        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\highscore_background.jpg"
     },
     {
         "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/menu_background.jpg",
@@ -160,59 +232,159 @@
         "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\highscore_online.png"
     },
     {
-        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/logo_runnershigh.png",
-        "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/drawable/logo_runnershigh.png"
+        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logo_sony.png",
+        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\logo_sony.png"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/mr_ic_pause_dark.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable/mr_ic_pause_dark.xml"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\info_background.jpg",
+        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\info_background.jpg"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_light.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_plus_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\highscore_submit.png",
+        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\highscore_submit.png"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logo_mma.png",
+        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\logo_mma.png"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\highscore_line.png",
+        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\highscore_line.png"
     },
     {
         "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/info_andreas_nagl.jpg",
         "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/drawable/info_andreas_nagl.jpg"
     },
     {
-        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\menu_button_play_game.png",
-        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\menu_button_play_game.png"
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/logo_runnershigh.png",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/drawable/logo_runnershigh.png"
     },
     {
-        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logo_runnershigh.png",
-        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\logo_runnershigh.png"
+        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logo_mmt.png",
+        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\logo_mmt.png"
     },
     {
-        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon.png",
-        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\icon.png"
+        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\menu_button_information.png",
+        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\menu_button_information.png"
     },
     {
-        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/highscore_line.png",
-        "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/drawable/highscore_line.png"
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/drawable/abc_tab_indicator_material.xml"
     },
     {
-        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\info_andreas_nagl.jpg",
-        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\info_andreas_nagl.jpg"
+        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\highscore_local.png",
+        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\highscore_local.png"
     },
     {
         "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/info_design.jpg",
         "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/drawable/info_design.jpg"
     },
     {
-        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\info_design.jpg",
-        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\info_design.jpg"
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\info_programming.jpg",
-        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\info_programming.jpg"
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_dark.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/drawable/abc_dialog_material_background_dark.xml"
     },
     {
-        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logo_sony.png",
-        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\logo_sony.png"
+        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\info_hans_christian_kogler.jpg",
+        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\info_hans_christian_kogler.jpg"
     },
     {
-        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/logo_mma.png",
-        "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/drawable/logo_mma.png"
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_connecting_mono_light.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable/mr_ic_media_route_connecting_mono_light.xml"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\menu_button_play_game.png",
+        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\menu_button_play_game.png"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\info_andreas_nagl.jpg",
+        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\info_andreas_nagl.jpg"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/drawable/abc_list_selector_holo_light.xml"
     },
     {
         "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/menu_button_play_game.png",
         "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/drawable/menu_button_play_game.png"
     },
     {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logo_runnershigh.png",
+        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\logo_runnershigh.png"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\info_mario_reichmann.jpg",
+        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\info_mario_reichmann.jpg"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/highscore_line.png",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/drawable/highscore_line.png"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\info_andre_schweighofer.jpg",
+        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\info_andre_schweighofer.jpg"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\info_manuel_lehermayr.jpg",
+        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\info_manuel_lehermayr.jpg"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\info_christian_winkler.jpg",
+        "source": "/Users/apsMac1/Documents/runnersHigh/C:\\Users\\z11791\\Documents\\runnersHigh1\\app\\src\\main\\res\\drawable\\info_christian_winkler.jpg"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_connecting_mono_dark.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable/mr_ic_media_route_connecting_mono_dark.xml"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/logo_mma.png",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/drawable/logo_mma.png"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_mono_light.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable/mr_ic_media_route_mono_light.xml"
+    },
+    {
         "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/icon.png",
         "source": "/Users/apsMac1/Documents/runnersHigh/app/src/main/res/drawable/icon.png"
+    },
+    {
+        "merged": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/res/merged/debug/drawable/mr_ic_pause_light.xml",
+        "source": "/Users/apsMac1/Documents/runnersHigh/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable/mr_ic_pause_light.xml"
     }
 ]

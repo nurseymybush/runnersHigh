@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.alarmclocksnoozers.runnershigh.test">
+    package="com.unocode.runnershigh_enhanced.test">
 
     <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="23" />
 
@@ -9,8 +9,8 @@
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="com.alarmclocksnoozers.runnershigh"
+                     android:targetPackage="com.unocode.runnershigh_enhanced"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for com.alarmclocksnoozers.runnershigh"/>
+                     android:label="Tests for com.unocode.runnershigh_enhanced"/>
 </manifest>
