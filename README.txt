@@ -1,3 +1,9 @@
+2/19/2016:
+*updated app name to RunnersHighEnhanced
+*updated info about RunnersHighEnhanced
+*removed highscore_background.jpg from created folder drawable_nodpi - was causing error
+*min sdk version is now API 9
+
 2/17/2016  - Updates added after fork by user nurseymybush:
 *Import into Gradle Build System plugin 1.5.0
 *Change Target to API 23, Min SDK to 8
