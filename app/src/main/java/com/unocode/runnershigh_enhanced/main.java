@@ -24,8 +24,7 @@ public class main extends Activity {
 		
 		private static long lastCreationTime = 0;
 		private static final int MIN_CREATION_TIMEOUT = 10000;
-		
-		
+
 		//MediaPlayer musicPlayerIntro;
 		MediaPlayer musicPlayerLoop;
 		boolean MusicLoopStartedForFirstTime = false;
@@ -39,8 +38,7 @@ public class main extends Activity {
 	    @Override
 		public void onCreate(Bundle savedInstanceState) {
 	    	super.onCreate(savedInstanceState);
-	    	
-	    	
+
 	    	//setContentView(R.layout.main);	 
 	    	
 	    	PowerManager pm = (PowerManager) getSystemService(Context.POWER_SERVICE);
@@ -194,7 +192,6 @@ public class main extends Activity {
 			
 	        Thread rHThread = new Thread(this);
 			rHThread.start();
-			
 //			
 //			initialize();
 		}
@@ -480,10 +477,7 @@ public class main extends Activity {
 			
 			timeAtLastSecond = System.currentTimeMillis();
 	        runCycleCounter=0;
-	        
-	        
-	        
-	        
+
 			if(Settings.RHDEBUG)
 				Log.d("debug", "RunnersHighView initiation ended");
 		}
@@ -651,7 +645,7 @@ public class main extends Activity {
 					if (Settings.SHOW_FPS) mCounterGroup.tryToSetCounterTo(mRenderer.fps);
 					else mCounterGroup.tryToSetCounterTo(totalScore);
 					
-					if(totalScore>=9000 && nineKwasplayed==false)
+					if(totalScore>=9000 && !nineKwasplayed)
 					{
 						nineKwasplayed=true;
 						SoundManager.playSound(9, 1, 1000, 1000, 0);

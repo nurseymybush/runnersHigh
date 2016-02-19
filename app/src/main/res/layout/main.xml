@@ -10,8 +10,6 @@
     android:layout_height="wrap_content" 
     android:background="#00FF00"
     android:text="@string/score" 
-/>  
-
-
+/>
 
 </LinearLayout>

@@ -25,12 +25,14 @@ public class Util {
 	}
 	
 	public static float getPercentOfScreenWidth(float percent) {
-		float percentWidth=mScreenWidth/100*percent;
-		return percentWidth;
+		//float percentWidth=mScreenWidth/100*percent;
+		//return percentWidth;
+		return mScreenWidth/100*percent;
 	}
 	public static float getPercentOfScreenHeight(float percent) {
-		float percentHeight=mScreenHeight/100*percent;
-		return percentHeight;
+		//float percentHeight=mScreenHeight/100*percent;
+		//return percentHeight;
+		return mScreenHeight/100*percent;
 	} 	
 	
 	public int toScreenY(int y) {

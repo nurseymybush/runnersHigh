@@ -17,7 +17,6 @@ import android.view.WindowManager;
 import android.widget.Toast;
 
 public class Menu extends Activity {
-	MediaPlayer menuLoop;
 	private Toast loadMessage;
 	private Runnable gameLauncher;
 	private Intent gameIntent;
@@ -32,9 +31,10 @@ public class Menu extends Activity {
 		
     	super.onCreate(savedInstanceState);
         setContentView(R.layout.menu); 
-        
 
 		loadMessage = Toast.makeText(getApplicationContext(), "loading game...", Toast.LENGTH_SHORT );
+		//warning above is dumb because if you check further down, show() is being called. for now IGNORE
+
 		loadMessage.setGravity(Gravity.CENTER, 0, 0);
         
 		gameIntent = new Intent (this, main.class);
@@ -51,16 +51,6 @@ public class Menu extends Activity {
 		};
 		
 		mHandler = new Handler();
-		
-		
-		
-        /*
-        menuLoop = MediaPlayer.create(getApplicationContext(), R.raw.menu);  
-        menuLoop.setLooping(true);
-        menuLoop.seekTo(0);
-        menuLoop.setVolume(0.5f, 0.5f);
-        menuLoop.start();
-        */
     }
     
     public void playGame(View view) {

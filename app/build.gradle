@@ -17,6 +17,7 @@ android {
         }
     }
     dependencies {
+        compile project(':BaseGameUtils')
         compile 'com.google.android.gms:play-services:8.4.0'
     }
 }

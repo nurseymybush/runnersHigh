@@ -9,9 +9,12 @@
 	<LinearLayout android:id="@+id/linearLayout2"
 		android:orientation="vertical"
 		android:layout_width="fill_parent"
-        android:layout_height="fill_parent" android:layout_weight="2" android:layout_marginBottom="10dp" android:layout_marginLeft="10dp">
-        
-	        <View
+        android:layout_height="fill_parent"
+		android:layout_weight="2"
+		android:layout_marginBottom="10dp"
+		android:layout_marginLeft="10dp"
+		android:layout_marginStart="10dp">
+		<View
 		        android:layout_width="fill_parent"
 		        android:layout_height="fill_parent"
 		        android:layout_weight="2"
@@ -42,13 +45,13 @@
 				android:onClick="showInfo"
 			android:layout_margin="5dp"/>
 	</LinearLayout>
-
+
 	<LinearLayout
 	    android:id="@+id/linearLayout3"
 	    android:layout_width="fill_parent"
 	    android:layout_height="fill_parent"
 	    android:layout_weight="1"
-	    android:gravity="right"
+	    android:gravity="end"
 	    android:orientation="vertical" >
 	</LinearLayout>
 	

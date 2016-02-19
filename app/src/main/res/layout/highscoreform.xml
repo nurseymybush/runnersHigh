@@ -3,9 +3,7 @@
 	android:layout_width="fill_parent"
 	android:layout_height="fill_parent"
 	android:orientation="vertical">	
-
-
-
+	<!--
 <LinearLayout
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
@@ -13,13 +11,13 @@
 	android:padding="10dp" 
 	
 	>
-
+-->
 	<TextView  
 		android:id="@+id/titleSaveScore"
 	  	android:layout_width="fill_parent" 
 	    android:layout_height="wrap_content"    
-	    android:text="Save your Highscore" 
-	    android:textSize="26dp"
+	    android:text="@string/saveYourHighScore"
+	    android:textSize="26sp"
 	    android:textColor="#92C36F"
 	    />
 	    
@@ -28,8 +26,8 @@
 		android:id="@+id/labelScore"
 	  	android:layout_width="fill_parent" 
 	    android:layout_height="wrap_content"    
-	    android:text="Your score was:" 
-	    android:textSize="20dp"
+	    android:text="@string/yourScoreWas"
+	    android:textSize="20sp"
 	    android:textColor="#876842"
 	    />				
 		
@@ -37,7 +35,7 @@
 		android:id="@+id/score" 
 	  	android:layout_width="fill_parent"
 		android:layout_height="wrap_content"
-		android:text="2301"
+		android:text="@string/twentythreeohone"
 		android:textColor="#39583E" 
 		android:textStyle="bold"/>
 
@@ -46,28 +44,30 @@
 		android:id="@+id/labelName"
 	  	android:layout_width="fill_parent" 
 	    android:layout_height="wrap_content"    
-	    android:text="Enter your name:" 
-	    android:textSize="20dp"
+	    android:text="@string/enterYourName"
+	    android:textSize="20sp"
 	    android:textColor="#876842"
 	    />
 				
 	<EditText android:id="@+id/title" 
 	  	android:layout_width="fill_parent"
 		android:layout_height="wrap_content"
+		android:inputType="textPersonName"
 		/>
 		
 	<CheckBox android:id="@+id/postOnline"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Save my score online as well"
+        android:text="@string/saveMyScoreOnlineAsWell"
         android:textColor="#876842" />
 	
 	<Button android:id="@+id/confirm"
 		android:layout_marginTop="15dp" 
 		android:layout_width="fill_parent"
 		android:layout_height="wrap_content"
-	    android:text="Save"
+	    android:text="@string/save"
 		/>
 </LinearLayout>
-
+<!--
 </LinearLayout>
+-->

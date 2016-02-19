@@ -1,3 +1,11 @@
+2/19/2016a:
+*Added baseGameUtils as recommended from Google play games services website
+*added some string resources
+*changed name of game under icon and in app manager
+*minor fixes with deprecated methods
+*cleaned up some layout xml
+*starting to add google play games stuff
+
 2/19/2016:
 *updated app name to RunnersHighEnhanced
 *updated info about RunnersHighEnhanced

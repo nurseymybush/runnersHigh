@@ -235,7 +235,7 @@ public class HighScoreActivity extends Activity {
             	additional.setLayoutParams(paramsOfSubmitButton);
     		} else {
     			additional = new TextView(this, null, android.R.attr.textAppearanceSmallInverse);
-    			((TextView)additional).setText("is online");
+    			((TextView)additional).setText(getResources().getString(R.string.isOnline));
 
         		LayoutParams paramsOfAdditional = new LayoutParams(0, LayoutParams.WRAP_CONTENT, 3.0f);
         		paramsOfAdditional.gravity = Gravity.CENTER_VERTICAL | Gravity.END;
