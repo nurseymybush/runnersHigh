@@ -10,57 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f861cd0-3098-4468-8129-085278665194" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/values/ids.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/values/integer.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/androidTest/debug/com/alarmclocksnoozers/runnershigh/test/BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/alarmclocksnoozers/runnershigh/BuildConfig.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/alarmclocksnoozers/highscore/DBManager.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/unocode/highscore/DBManager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/alarmclocksnoozers/highscore/DbAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/unocode/highscore/DbAdapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/alarmclocksnoozers/highscore/HighscoreAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/unocode/highscore/HighscoreAdapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/alarmclocksnoozers/runnershigh/Block.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/unocode/runnershigh_enhanced/Block.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/alarmclocksnoozers/runnershigh/BonusScoreEffect.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/unocode/runnershigh_enhanced/BonusScoreEffect.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/alarmclocksnoozers/runnershigh/Button.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/unocode/runnershigh_enhanced/Button.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/alarmclocksnoozers/runnershigh/CounterDigit.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/unocode/runnershigh_enhanced/CounterDigit.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/alarmclocksnoozers/runnershigh/CounterGroup.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/unocode/runnershigh_enhanced/CounterGroup.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/alarmclocksnoozers/runnershigh/Group.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/unocode/runnershigh_enhanced/Group.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/alarmclocksnoozers/runnershigh/HighScoreActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/unocode/runnershigh_enhanced/HighScoreActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/alarmclocksnoozers/runnershigh/HighScoreForm.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/unocode/runnershigh_enhanced/HighScoreForm.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/alarmclocksnoozers/runnershigh/HighscoreMark.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/unocode/runnershigh_enhanced/HighscoreMark.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/alarmclocksnoozers/runnershigh/Info.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/unocode/runnershigh_enhanced/Info.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/alarmclocksnoozers/runnershigh/Level.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/unocode/runnershigh_enhanced/Level.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/alarmclocksnoozers/runnershigh/Menu.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/unocode/runnershigh_enhanced/Menu.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/alarmclocksnoozers/runnershigh/Mesh.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/unocode/runnershigh_enhanced/Mesh.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/alarmclocksnoozers/runnershigh/Obstacle.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/unocode/runnershigh_enhanced/Obstacle.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/alarmclocksnoozers/runnershigh/ObstacleBonus.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/unocode/runnershigh_enhanced/ObstacleBonus.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/alarmclocksnoozers/runnershigh/ObstacleJump.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/unocode/runnershigh_enhanced/ObstacleJump.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/alarmclocksnoozers/runnershigh/OpenGLRenderer.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/unocode/runnershigh_enhanced/OpenGLRenderer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/alarmclocksnoozers/runnershigh/ParalaxBackground.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/unocode/runnershigh_enhanced/ParalaxBackground.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/alarmclocksnoozers/runnershigh/Player.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/unocode/runnershigh_enhanced/Player.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/alarmclocksnoozers/runnershigh/RHDrawable.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/unocode/runnershigh_enhanced/RHDrawable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/alarmclocksnoozers/runnershigh/Settings.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/unocode/runnershigh_enhanced/Settings.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/alarmclocksnoozers/runnershigh/SoundManager.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/unocode/runnershigh_enhanced/SoundManager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/alarmclocksnoozers/runnershigh/Sprite.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/unocode/runnershigh_enhanced/Sprite.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/alarmclocksnoozers/runnershigh/Util.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/unocode/runnershigh_enhanced/Util.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/alarmclocksnoozers/runnershigh/main.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/unocode/runnershigh_enhanced/main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_5b77ef736f0240d99a27f628350dc90692db596d.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_5b77ef736f0240d99a27f628350dc90692db596d.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/unocode/runnershigh_enhanced/HighScoreActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/unocode/runnershigh_enhanced/HighScoreActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/highscore.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/highscore.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/highscore.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/highscore.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/raw.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/raw.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runnersHigh.iml" afterPath="$PROJECT_DIR$/runnersHigh.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="runnersHigh.iws" />
@@ -81,68 +39,7 @@
     <favorites_list name="runnersHigh" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="local.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/local.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gradle-wrapper.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -1988,6 +1885,8 @@
         <option value="$PROJECT_DIR$/app/src/main/res/values/integer.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/highscore.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/unocode/runnershigh_enhanced/HighScoreActivity.java" />
       </list>
     </option>
   </component>
@@ -1996,7 +1895,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="9" />
-    <option name="y" value="25" />
+    <option name="y" value="24" />
     <option name="width" value="1268" />
     <option name="height" value="768" />
   </component>
@@ -2023,19 +1922,13 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="runnersHigh" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle Scripts" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2050,6 +1943,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane" />
     </panes>
   </component>
@@ -2230,15 +2125,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="9" y="25" width="1268" height="768" extended-state="0" />
-    <editor active="true" />
+    <frame x="9" y="24" width="1268" height="768" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3297546" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -2253,13 +2149,12 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959217" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959217" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -2273,11 +2168,72 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/highscore.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/unocode/runnershigh_enhanced/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="465" column="12" selection-start-line="465" selection-start-column="12" selection-end-line="465" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2285,7 +2241,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2293,7 +2248,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2301,7 +2255,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2309,7 +2262,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2333,7 +2285,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2357,13 +2308,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2478#2479#0" expanded="false" />
-            <element signature="e#2539#2540#0" expanded="false" />
-            <element signature="e#8276#8277#0" expanded="false" />
-            <element signature="e#8320#8321#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2371,12 +2315,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
-          <folding>
-            <element signature="e#1391#1612#0" expanded="false" />
-            <element signature="e#1611#1612#0" expanded="false" />
-            <element signature="e#2657#2803#0" expanded="false" />
-            <element signature="e#2802#2803#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2384,22 +2322,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/unocode/runnershigh_enhanced/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="452" column="48" selection-start-line="452" selection-start-column="48" selection-end-line="452" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#3234#3235#0" expanded="false" />
-            <element signature="e#3260#3261#0" expanded="false" />
-            <element signature="e#14595#14622#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2417,16 +2339,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/highscore.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="13.793103">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -2448,41 +2360,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/unocode/runnershigh_enhanced/HighScoreActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="233" column="0" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13389#0" expanded="false" />
-            <element signature="e#2369#2643#0" expanded="false" />
-            <element signature="e#2543#2627#0" expanded="false" />
-            <element signature="e#2626#2627#0" expanded="false" />
-            <element signature="e#2642#2643#0" expanded="false" />
-            <element signature="e#2724#3048#0" expanded="false" />
-            <element signature="e#2892#3032#0" expanded="false" />
-            <element signature="e#3031#3032#0" expanded="false" />
-            <element signature="e#3047#3048#0" expanded="false" />
-            <element signature="e#3181#3255#0" expanded="false" />
-            <element signature="e#3254#3255#0" expanded="false" />
-            <element signature="e#4005#5522#0" expanded="false" />
-            <element signature="e#4345#5220#0" expanded="false" />
-            <element signature="e#4720#4736#0" expanded="false" />
-            <element signature="e#5034#5130#0" expanded="false" />
-            <element signature="e#5129#5130#0" expanded="false" />
-            <element signature="e#5219#5220#0" expanded="false" />
-            <element signature="e#5304#5479#0" expanded="false" />
-            <element signature="e#5478#5479#0" expanded="false" />
-            <element signature="e#5521#5522#0" expanded="false" />
-            <element signature="e#6531#6639#0" expanded="false" />
-            <element signature="e#6638#6639#0" expanded="false" />
-            <element signature="e#7872#8415#0" expanded="false" />
-            <element signature="e#8414#8415#0" expanded="false" />
-            <element signature="e#13348#13349#0" expanded="false" />
-            <element signature="e#13385#13386#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2514,7 +2391,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15706806">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2522,7 +2398,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2530,7 +2405,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2538,23 +2412,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19633508">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2562,7 +2419,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29339853">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -2570,7 +2433,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2578,6 +2440,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11002445">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -2586,6 +2455,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/unocode/runnershigh_enhanced/HighScoreActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.569682">
+          <caret line="95" column="8" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/unocode/runnershigh_enhanced/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="465" column="12" selection-start-line="465" selection-start-column="12" selection-end-line="465" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/highscore.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
           <folding />
         </state>
       </provider>

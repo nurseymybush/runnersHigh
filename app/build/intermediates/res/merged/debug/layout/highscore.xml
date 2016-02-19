@@ -4,8 +4,9 @@
     android:layout_height="fill_parent"
     android:orientation="vertical"
     android:padding="10dp"
-    android:textColor="#876842" android:background="@drawable/highscore_background">
-
+    android:textColor="#876842">
+    <!--android:background="@drawable/highscore_background">-->
+
     <LinearLayout
         android:id="@+id/linearLayout1"
         android:layout_width="match_parent"
@@ -18,7 +19,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="10"
             android:background="@drawable/highscore_local" />
-
+
         <View
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -31,7 +32,7 @@
             android:layout_weight="10"
             android:background="@drawable/highscore_online" />
     </LinearLayout>
-
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -44,7 +45,7 @@
         </TableLayout>
 
     </ScrollView>
-
+
     <View
         android:layout_width="wrap_content"
         android:layout_height="0dp"

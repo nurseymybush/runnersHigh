@@ -11,6 +11,9 @@ package com.unocode.runnershigh_enhanced;
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -30,6 +33,10 @@ import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.database.Cursor;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.drawable.BitmapDrawable;
+import android.graphics.drawable.Drawable;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
@@ -40,6 +47,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
@@ -59,15 +67,40 @@ public class HighScoreActivity extends Activity {
 	
 	private TableLayout highscoreTable;
 	private Context context2;
+	private LinearLayout myLayout;
 	
 	// ---------------------------------------------------
+	private Bitmap decodeFile(File f) {
+		try {
+			BitmapFactory.Options o = new BitmapFactory.Options();
+			o.inJustDecodeBounds = true;
+			BitmapFactory.decodeStream(new FileInputStream(f), null, o);
+			final int REQUIRED_SIZE = 70;
+			int scale = 1;
+			while(o.outWidth / scale / 2 >= REQUIRED_SIZE && o.outHeight / scale / 2 >= REQUIRED_SIZE){
+				scale *= 2;
+			}
+			BitmapFactory.Options o2 = new BitmapFactory.Options();
+			o2.inSampleSize = scale;
+			return BitmapFactory.decodeStream(new FileInputStream(f), null, o2);
 
+		} catch (FileNotFoundException e) { Log.e("decodeFile", "filenotfound exception"); }
+		return null;
+	}
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
 		
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.highscore);
+
+		getWindow().setBackgroundDrawableResource(R.drawable.highscore_background);
+
+		/* code to get past 'not enough memory in vm to load background image' error
+		Bitmap highscore_bg = decodeFile(new File("android.resource://com.unocode.runnershigh_enhanced/drawable/highscore_background.jpg"));
+		Drawable dr = new BitmapDrawable(getResources(), highscore_bg);
+		getWindow().setBackgroundDrawable(dr);*/
+
+		setContentView(R.layout.highscore);
 
         highScoreAdapter = new HighscoreAdapter(this);
         highScoreAdapter.open();
