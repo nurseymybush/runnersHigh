@@ -53,6 +53,21 @@
 	    android:layout_weight="1"
 	    android:gravity="end"
 	    android:orientation="vertical" >
+
+		<!-- sign-in button -->
+		<com.google.android.gms.common.SignInButton
+			android:id="@+id/sign_in_button"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+
+		<!-- sign-out button -->
+		<Button
+			android:id="@+id/sign_out_button"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/signOut"
+			android:visibility="gone" />
+
 	</LinearLayout>
 	
 </LinearLayout>

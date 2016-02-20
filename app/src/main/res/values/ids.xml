@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_id">492176528441</string>
+    <!-- Replace the app_id below with you own, after you have added the game to google play developer console -->
+    <string name="app_id">366988648645</string>
 </resources>
