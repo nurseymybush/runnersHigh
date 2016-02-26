@@ -4,10 +4,12 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Intent;
+import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.graphics.PorterDuff;
 import android.media.MediaPlayer;
 import android.net.Uri;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
@@ -19,10 +21,20 @@ import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.common.api.PendingResult;
 import com.google.android.gms.drive.Drive;
 import com.google.android.gms.games.Games;
+import com.google.android.gms.games.quest.Quests;
+import com.google.android.gms.games.snapshot.Snapshot;
+import com.google.android.gms.games.snapshot.SnapshotMetadata;
+import com.google.android.gms.games.snapshot.SnapshotMetadataChange;
+import com.google.android.gms.games.snapshot.Snapshots;
 import com.google.android.gms.plus.Plus;
 import com.google.example.games.basegameutils.BaseGameUtils;
+
+import java.io.IOException;
+import java.math.BigInteger;
+import java.util.Random;
 
 public class Menu extends Activity implements
 		/* google play games added implements */
@@ -40,6 +52,11 @@ public class Menu extends Activity implements
 	final static String TAG = "RunnersHighEnhanced";
 
 	private static int RC_SIGN_IN = 9001;
+	private static int REQUEST_ACHIEVEMENTS = 9002;
+	private static int REQUEST_LEADERBOARD = 9003;
+	private static int REQUEST_QUESTS = 9004;
+	private static final int RC_SAVED_GAMES = 9009;
+
 
 	private boolean mResolvingConnectionFailure = false;
 	private boolean mAutoStartSignInFlow = true;
@@ -49,8 +66,8 @@ public class Menu extends Activity implements
 	// sign in flow, to know you should not attempt
 	// to connect in onStart()
 	private GoogleApiClient mGoogleApiClient;  // initialized in onCreate
-	
-    @Override
+
+	@Override
     public void onCreate(Bundle savedInstanceState) {
 
     	requestWindowFeature(Window.FEATURE_NO_TITLE);  
@@ -83,6 +100,12 @@ public class Menu extends Activity implements
 		findViewById(R.id.sign_in_button).setOnClickListener(this);
 		findViewById(R.id.sign_out_button).setOnClickListener(this);
 
+		/*achievements and leaderboards buttons and saved games and quests */
+		findViewById(R.id.achievements_button).setOnClickListener(this);
+		findViewById(R.id.leaderboards_button).setOnClickListener(this);
+		findViewById(R.id.saved_games_button).setOnClickListener(this);
+		findViewById(R.id.quests_button).setOnClickListener(this);
+
 		// Create the Google Api Client with access to Plus and Games
 		mGoogleApiClient = new GoogleApiClient.Builder(this)
 				.addConnectionCallbacks(this)
@@ -92,7 +115,11 @@ public class Menu extends Activity implements
 				.addApi(Drive.API).addScope(Drive.SCOPE_APPFOLDER)//have drive installed
 				.build();
     }
-    
+
+	private boolean isSignedIn() {
+		return (mGoogleApiClient != null && mGoogleApiClient.isConnected());
+	}
+
     public void playGame(View view) {
 
 		// Loading Toast
@@ -105,7 +132,7 @@ public class Menu extends Activity implements
 
 		// Loading Toast
 		loadMessage.show();
-    	Settings.SHOW_FPS = true;
+		Settings.SHOW_FPS = true;
 		mHandler.post(gameLauncher);
     }
     
@@ -152,30 +179,71 @@ public class Menu extends Activity implements
 	/* below is all google play games added code */
 	@Override
 	public void onClick(View view) {
-		if (view.getId() == R.id.sign_in_button) {
-			// start the asynchronous sign in flow
-			mSignInClicked = true;
-			mGoogleApiClient.connect();
-		}
-		else if (view.getId() == R.id.sign_out_button) {
-			// sign out.
-			/*
-			mSignInClicked = false;
-			Games.signOut(mGoogleApiClient);
-			mGoogleApiClient.disconnect();
-			*/
 
-			//try this
-			// user explicitly signed out, so turn off auto sign in
-			mExplicitSignOut = true;
-			if (mGoogleApiClient != null && mGoogleApiClient.isConnected()) {
-				Games.signOut(mGoogleApiClient);
-				mGoogleApiClient.disconnect();
-			}
+		switch(view.getId()) {
 
-			// show sign-in button, hide the sign-out button
-			findViewById(R.id.sign_in_button).setVisibility(View.VISIBLE);
-			findViewById(R.id.sign_out_button).setVisibility(View.GONE);
+			case R.id.sign_in_button:
+				// start the asynchronous sign in flow
+				Log.d("ButtonClicked", "signin");
+				mSignInClicked = true;
+				mGoogleApiClient.connect();
+				break;
+
+			case R.id.sign_out_button:
+				Log.d("ButtonClicked", "signout");
+				// user explicitly signed out, so turn off auto sign in
+				mExplicitSignOut = true;
+				if (mGoogleApiClient != null && mGoogleApiClient.isConnected()) {
+					Games.signOut(mGoogleApiClient);
+					mGoogleApiClient.disconnect();
+				}
+
+				// show sign-in button, hide the sign-out button
+				findViewById(R.id.sign_in_button).setVisibility(View.VISIBLE);
+				findViewById(R.id.sign_out_button).setVisibility(View.GONE);
+				findViewById(R.id.achievements_button).setVisibility(View.GONE);
+				findViewById(R.id.leaderboards_button).setVisibility(View.GONE);
+				findViewById(R.id.saved_games_button).setVisibility(View.GONE);
+				findViewById(R.id.quests_button).setVisibility(View.GONE);
+
+				break;
+
+			case R.id.achievements_button:
+				Log.d("ButtonClicked", "achievements");
+				if (isSignedIn())
+					startActivityForResult(Games.Achievements.getAchievementsIntent(mGoogleApiClient),
+							REQUEST_ACHIEVEMENTS);
+				else Log.e("ClickedAchievements", "not signed in");
+				break;
+
+			case R.id.leaderboards_button:
+				Log.d("ButtonClicked", "leaderboards");
+				if (isSignedIn())
+					startActivityForResult(Games.Leaderboards.getAllLeaderboardsIntent(mGoogleApiClient), REQUEST_LEADERBOARD);
+				else Log.e("ClickedLeaderboards", "not signed in");
+				break;
+
+			case R.id.saved_games_button:
+				Log.d("ButtonClicked", "saved games");
+				if (isSignedIn()) {
+					int maxNumberOfSavedGamesToShow = 5;
+					Intent savedGamesIntent = Games.Snapshots.getSelectSnapshotIntent(mGoogleApiClient,
+							"See My Saves", true, true, maxNumberOfSavedGamesToShow);
+					startActivityForResult(savedGamesIntent, RC_SAVED_GAMES);
+				} else Log.e("ClickedSavedGames", "not signed in");
+				break;
+
+			case R.id.quests_button:
+				Log.d("ButtonClicked", "quests");
+				if (isSignedIn()) {
+					Intent questsIntent = Games.Quests.getQuestsIntent(mGoogleApiClient,
+							Quests.SELECT_ALL_QUESTS);
+					startActivityForResult(questsIntent, REQUEST_QUESTS);
+				} else Log.e("ClickedAchievements", "not signed in");
+				break;
+
+			default:
+				Log.e("ClickedSomething", "no idea");
 		}
 	}
 
@@ -185,6 +253,10 @@ public class Menu extends Activity implements
 
 		findViewById(R.id.sign_in_button).setVisibility(View.GONE);
 		findViewById(R.id.sign_out_button).setVisibility(View.VISIBLE);
+		findViewById(R.id.achievements_button).setVisibility(View.VISIBLE);
+		findViewById(R.id.leaderboards_button).setVisibility(View.VISIBLE);
+		findViewById(R.id.saved_games_button).setVisibility(View.VISIBLE);
+		findViewById(R.id.quests_button).setVisibility(View.VISIBLE);
 
 		// (your code here: update UI, enable functionality that depends on sign in, etc)
 		Log.d(TAG, "onConnected");

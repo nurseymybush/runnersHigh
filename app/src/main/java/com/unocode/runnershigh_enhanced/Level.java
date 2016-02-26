@@ -624,7 +624,8 @@ public class Level {
 		    
 		}
 	}
-	
+
+	//TODO here is where you change point value for distance reached, conside removing the magic numbers
 	public int getDistanceScore()
 	{
 		return (int)(levelPosition * 800 / width / 10);

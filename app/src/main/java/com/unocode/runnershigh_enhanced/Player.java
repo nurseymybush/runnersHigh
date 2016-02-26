@@ -36,10 +36,12 @@ public class Player{
 	private boolean fingerOnScreen = false;
 	private float bonusVelocity = 0;
 	private float bonusVelocityDownfallSpeed = 0;
-	
+
+	//TODO here is where you would change point values for bonus stuff
 	public int bonusItems = 0;
+	private int hitFire = 0;
 	private int bonusScorePerItem = 200;
-	
+
 
 	public Player(Context context, OpenGLRenderer glrenderer, int ScreenHeight) {
 		x = Util.getPercentOfScreenWidth(9); //70; 
@@ -176,7 +178,8 @@ public class Player{
 	}	
 	
 	public boolean collidedWithObstacle(float levelPosition) {
-		
+
+		//TODO check if player collided with fire
 		for(int i = 0; i < Level.maxObstaclesJumper; i++)
 		{
 			ObstacleRect.left =  (int)Level.obstacleDataJumper[i].x;
@@ -193,9 +196,11 @@ public class Player{
 				
 				if (fingerOnScreen)
 					bonusVelocity = Util.getPercentOfScreenHeight(1.5f);
+				hitFire++;
 			}
 		}
-		
+
+		//TODO check if player collided with Spiderwebs
 		for(int i = 0; i < Level.maxObstaclesSlower; i++)
 		{
 			ObstacleRect.left =  (int)Level.obstacleDataSlower[i].x;
@@ -267,13 +272,16 @@ public class Player{
 		
 		speedoffsetX = 0;
 		bonusItems = 0;
+		hitFire = 0;
 	}
 	
 	public int getBonusScore()
 	{
 		return bonusItems * bonusScorePerItem;
 	}
-	
 
+	public int getBonusItems() { return bonusItems; }
+
+	public int getHitFire() { return hitFire; }
 
 }
