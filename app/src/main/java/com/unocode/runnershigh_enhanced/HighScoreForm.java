@@ -20,6 +20,7 @@ import java.net.URLEncoder;
 import java.util.HashMap;
 import java.util.Map;
 
+import android.os.AsyncTask;
 import android.view.View.OnKeyListener;
 
 import android.app.Activity;
@@ -132,9 +133,13 @@ public class HighScoreForm extends Activity {
 					HashMap<String, String> nameValuePairs = new HashMap<String, String>(2);
 					nameValuePairs.put("name", name);
 					nameValuePairs.put("score", score);
-					performPostCall(Settings.HIGHSCORE_POST_URL,nameValuePairs);
+					//performPostCall(Settings.HIGHSCORE_POST_URL,nameValuePairs);
 
-	        	    isonline = 1;
+
+					PerformPostCallClass myTask = new PerformPostCallClass(nameValuePairs);
+					myTask.execute();
+
+					isonline = 1;
         		}
         	}
         	
@@ -197,8 +202,8 @@ public class HighScoreForm extends Activity {
 
 	/* CHANCE ADDED CODE TO REPLACE DEPRECATED STUFF */
 	//http://stackoverflow.com/questions/9767952/how-to-add-parameters-to-httpurlconnection-using-post
-	public String performPostCall(String requestURL,
-								  HashMap<String, String> postDataParams) {
+	/*
+	public String performPostCall(String requestURL, HashMap<String, String> postDataParams) {
 
 		URL url;
 		String response = "";
@@ -211,7 +216,6 @@ public class HighScoreForm extends Activity {
 			conn.setRequestMethod("POST");
 			conn.setDoInput(true);
 			conn.setDoOutput(true);
-
 
 			OutputStream os = conn.getOutputStream();
 			BufferedWriter writer = new BufferedWriter(
@@ -239,7 +243,69 @@ public class HighScoreForm extends Activity {
 		}
 
 		return response;
+	}*/
+
+
+	/*Chance CODE */
+	//did this change to get rid of the "network on main thread error"
+	//http://stackoverflow.com/questions/21519369/passing-hashmap-to-asynctask-and-convert-it-to-jsonobject
+	class PerformPostCallClass extends AsyncTask<Void, Void, String> {
+
+		private HashMap<String, String> postDataParams;
+
+		public PerformPostCallClass (HashMap<String,String> m ){
+			this.postDataParams = m ;
+		}
+    	private Exception exception;
+
+    	protected String doInBackground(Void ...params) {
+
+    		String response = "";
+
+        	try {
+            	URL url = new URL(Settings.HIGHSCORE_POST_URL);
+
+            	HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+				conn.setReadTimeout(15000);
+				conn.setConnectTimeout(15000);
+				conn.setRequestMethod("POST");
+				conn.setDoInput(true);
+				conn.setDoOutput(true);
+
+				OutputStream os = conn.getOutputStream();
+				BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(os, "UTF-8"));
+				writer.write(getPostDataString(postDataParams));
+
+				writer.flush();
+				writer.close();
+				os.close();
+				int responseCode = conn.getResponseCode();
+
+				if (responseCode == HttpsURLConnection.HTTP_OK) {
+					String line;
+					BufferedReader br = new BufferedReader(new InputStreamReader(conn.getInputStream()));
+					while ((line = br.readLine()) != null) {
+						response += line;
+					}
+
+				} else {
+					response = "";
+				}
+
+        	} catch (Exception e) {
+            	this.exception = e;
+            	return null;
+        	}
+
+        	return response;
+    	}
+
+    //protected void onPostExecute(String result) {
+        // TODO: check this.exception
+        // TODO: do something with the feed
+    //}
 	}
+
 
 	private String getPostDataString(HashMap<String, String> params) throws UnsupportedEncodingException {
 		StringBuilder result = new StringBuilder();

@@ -331,7 +331,7 @@ public class HighScoreActivity extends Activity {
     	TextView place = new TextView(this, null, android.R.attr.textAppearanceLargeInverse);
 		place.setText(placeString);
 		LayoutParams paramsOfPlace = new LayoutParams(0, LayoutParams.WRAP_CONTENT, 2.0f);
-		paramsOfPlace.gravity = Gravity.CENTER_VERTICAL | Gravity.RIGHT;
+		paramsOfPlace.gravity = Gravity.CENTER_VERTICAL | Gravity.END;
 		place.setLayoutParams(paramsOfPlace);
 
 		TextView score = new TextView(this, null, android.R.attr.textAppearanceMediumInverse);

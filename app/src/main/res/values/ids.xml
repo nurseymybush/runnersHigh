@@ -2,4 +2,5 @@
 <resources>
     <!-- Replace the app_id below with you own, after you have added the game to google play developer console -->
     <string name="app_id">366988648645</string>
+    <string name="best_run_score_leaderboard">CgkIxcHpkdcKEAIQAQ</string>
 </resources>

@@ -20,11 +20,15 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 
+import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.games.Games;
+import com.google.example.games.basegameutils.BaseGameActivity;
 import com.orm.SugarRecord;
 import com.unocode.highscore.HighscoreAdapter;
 
-public class main extends Activity {
+//public class main extends Activity {
+public class main extends BaseGameActivity {//trying to get leaderboards here
+	//http://stackoverflow.com/questions/25031669/passing-the-googleapiclient-obj-from-one-activity-to-another
 	PowerManager.WakeLock wakeLock ;
 
 	private static long lastCreationTime = 0;
@@ -55,15 +59,27 @@ public class main extends Activity {
 	private int totalDeaths = 0;
 	private int totalJumps = 0;
 
+	//for leaderboards
+	GoogleApiClient mGoogleApiClient;  // initialized in onCreate
+
+
 	/** Called when the activity is first created. */
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
+		//moved the following line above super.onCreate to get rid of "requestFeature() must be called before adding content
+		requestWindowFeature(Window.FEATURE_NO_TITLE);
+
 		super.onCreate(savedInstanceState);
 
 		//setContentView(R.layout.main);
 
 		PowerManager pm = (PowerManager) getSystemService(Context.POWER_SERVICE);
 		wakeLock = pm.newWakeLock(PowerManager.SCREEN_BRIGHT_WAKE_LOCK, "tag");//TODO screen bright wake lock is deprecated
+
+		//NOT WORK - the following made the app crash when i started the game
+		//trying the below to get rid of "SCREEN_BRIGHT_WAKE_LOCK deprecated" message
+		//wakeLock = pm.newWakeLock(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON, "tag");
+
 		wakeLock.acquire();
 
 		SoundManager.getInstance();
@@ -77,12 +93,14 @@ public class main extends Activity {
 		musicPlayerLoop.setVolume(0.5f, 0.5f);
 
 
-		requestWindowFeature(Window.FEATURE_NO_TITLE);
-		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
+		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
 		isRunning = true;
 		mGameView = new RunnersHighView(getApplicationContext());
 		setContentView(mGameView);
+
+		//for google play games leaderboards
+		mGoogleApiClient = getApiClient();
 	}
 
 	@Override
@@ -153,7 +171,17 @@ public class main extends Activity {
 		}
 	}
 
+	//for google play games leaderboards
+	@Override
+	public void onSignInFailed() {
+		Log.w("onSignInFalied", "Signin Failed");
+	}
 
+	//for google play games leaderboards
+	@Override
+	public void onSignInSucceeded() {
+		Log.w("OnSignInSucceeded", "Signin Succeeded");
+	}
 
 
 	public class RunnersHighView extends GLSurfaceView implements Runnable {
@@ -693,6 +721,13 @@ public class main extends Activity {
 							Log.d("Cumulative Deaths", "Total Deaths: " + totalDeaths);
 							Log.d("Cumulative Jumps", "Total Jumps: " + totalJumps);
 
+							//send run score to leaderboard
+							if(getApiClient().isConnected()) {
+								Games.Leaderboards.submitScore(getApiClient(),
+										getString(R.string.best_run_score_leaderboard),
+										totalScore);
+							}
+
 						}
 						if(Settings.showHighscoreMarks){
 							if (totalScore > mHighscore1)
@@ -880,12 +915,15 @@ public class main extends Activity {
 
 
 		public boolean onTouchEvent(MotionEvent event) {
-			if(!gameIsLoading){
-				if(event.getAction() == MotionEvent.ACTION_UP)
+			if(!gameIsLoading) {
+
+				if(event.getAction() == MotionEvent.ACTION_UP) {
 					player.setJump(false);
 
-				else if(event.getAction() == MotionEvent.ACTION_DOWN){
+				} else if(event.getAction() == MotionEvent.ACTION_DOWN) {
+
 					if (resetButton.getShowButton() || saveButton.getShowButton()) {
+
 						if(resetButton.isClicked( event.getX(), Util.getInstance().toScreenY((int)event.getY()) ) ){
 							System.gc(); //do garbage collection
 							player.reset();
@@ -909,8 +947,8 @@ public class main extends Activity {
 							nineKwasplayed = false;
 							totalScore = 0;
 							Util.roundStartTime = System.currentTimeMillis();
-						}
-						else if(saveButton.isClicked( event.getX(), Util.getInstance().toScreenY((int)event.getY())  ) && !scoreWasSaved){
+
+						} else if(saveButton.isClicked( event.getX(), Util.getInstance().toScreenY((int)event.getY())  ) && !scoreWasSaved){
 							//save score
 							saveButton.setShowButton(false);
 							saveButton.z = -2.0f;
@@ -923,8 +961,8 @@ public class main extends Activity {
 							SoundManager.playSound(4, 1);
 							scoreWasSaved=true;
 						}
-					}
-					else {
+
+					} else {
 						player.setJump(true);
 						totalJumps++;
 					}

@@ -82,6 +82,8 @@ public class Menu extends Activity implements
 		loadMessage.setGravity(Gravity.CENTER, 0, 0);
         
 		gameIntent = new Intent (this, main.class);
+
+
 		mPlayButton = (android.widget.Button)findViewById(R.id.startButton);
 		mPlayButton.setClickable(true);
 		mPlayButton.setEnabled(true);

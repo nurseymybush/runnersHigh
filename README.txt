@@ -1,3 +1,8 @@
+3/6/2016:
+*Changed HighScoreForm’s perfomPostCall function to use AsyncTask to fix “networkonmainthread” error
+*changed main.java to extend BaseGameActivity to use google api client for leaderboards
+*implemented leaderboard for best run score
+
 2/19/2016a:
 *Added baseGameUtils as recommended from Google play games services website
 *added some string resources
