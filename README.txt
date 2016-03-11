@@ -1,3 +1,10 @@
+3/11/2016
+*added button to game screen that is helping me learn about how to add a pause and mute button to game screen - so basically not functional yet but present
+*removed permission for wake lock - crashed app when running main game loop until i commented out all the wake lock code - my thoughts are wake locks are not needed for games
+*removed permission for access network state - when clicking “online top 100” button in highscore, it will crash and complain about this mission permission. also crashed when i tried to save score in game until i commented out the check isOnline in main.java. now it only saves locally. commented out the submit local high score online button
+*gonna work on implementing double jump
+
+
 3/6/2016:
 *Changed HighScoreForm’s perfomPostCall function to use AsyncTask to fix “networkonmainthread” error
 *changed main.java to extend BaseGameActivity to use google api client for leaderboards

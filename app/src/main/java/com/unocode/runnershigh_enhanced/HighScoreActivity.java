@@ -134,13 +134,13 @@ public class HighScoreActivity extends Activity {
 
 				Toast.makeText(context, R.string.hs_loading_online, Toast.LENGTH_SHORT).show();
 
-				handler.postDelayed(new Runnable() {
+				//handler.postDelayed(new Runnable() {
 
-					public void run() {
+				//	public void run() {
 						//showOnlineScore(); to try to gix network issue
-						executeNetworkThread();
-					}
-				}, 500);
+				//		executeNetworkThread();
+				//	}
+				//}, 500);
 			}
 		});
         
@@ -182,7 +182,8 @@ public class HighScoreActivity extends Activity {
     			final Context context = this;
     			final int id = c.getInt(0);
 		       
-    			additional.setOnClickListener(new OnClickListener() {
+    			/*
+				additional.setOnClickListener(new OnClickListener() {
 					
 					public void onClick(View v) {
 						AlertDialog.Builder alert = new AlertDialog.Builder(context);
@@ -198,7 +199,7 @@ public class HighScoreActivity extends Activity {
 				        		highScoreAdapter.toastMessage(R.string.hs_error_no_internet);
 				        	} else {
 
-								/* CHANCE CODE */
+								// CHANCE CODE
 								HashMap<String, String> nameValuePairs = new HashMap<String, String>(2);
 								nameValuePairs.put("name", nameString);
 								nameValuePairs.put("score", scoreString);
@@ -214,7 +215,7 @@ public class HighScoreActivity extends Activity {
 
 									}
 								});
-								/* END OF CHANCE CODE */
+								// END OF CHANCE CODE
 
 				        	}        	
 				          }
@@ -228,7 +229,7 @@ public class HighScoreActivity extends Activity {
 				        });
 				        alert.show();  
 					}
-				});
+				});*/
     			additional.setBackgroundResource(R.drawable.highscore_submit);
     			
     			LayoutParams paramsOfSubmitButton = new LayoutParams(0, LayoutParams.MATCH_PARENT, 3.0f);
@@ -343,7 +344,7 @@ public class HighScoreActivity extends Activity {
 		TextView name = new TextView(this, null, android.R.attr.textAppearanceMediumInverse);
 		name.setText(nameString);
 		LayoutParams paramsOfName = new LayoutParams(0, LayoutParams.WRAP_CONTENT, 10.0f);
-		paramsOfName.gravity = Gravity.CENTER_VERTICAL | Gravity.LEFT;
+		paramsOfName.gravity = Gravity.CENTER_VERTICAL | Gravity.START;
 		name.setLayoutParams(paramsOfName);
 		
 

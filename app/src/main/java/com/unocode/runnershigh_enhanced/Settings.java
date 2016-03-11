@@ -31,7 +31,7 @@ public class Settings {
 	static final String URL_SONY = "http://www.sonydadc.com/";
 	
 	static final boolean RHDEBUG = false;
-	static boolean SHOW_FPS = false;
+	static boolean SHOW_FPS = true;
 	
 	static final boolean showHighscoreMarks = false;
 	

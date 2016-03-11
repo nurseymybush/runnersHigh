@@ -1,5 +1,6 @@
 package com.unocode.runnershigh_enhanced;
 
+import android.app.ActionBar;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -17,8 +18,10 @@ import android.util.Log;
 import android.view.Display;
 import android.view.MotionEvent;
 import android.view.View;
+import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.LinearLayout;
 
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.games.Games;
@@ -29,7 +32,7 @@ import com.unocode.highscore.HighscoreAdapter;
 //public class main extends Activity {
 public class main extends BaseGameActivity {//trying to get leaderboards here
 	//http://stackoverflow.com/questions/25031669/passing-the-googleapiclient-obj-from-one-activity-to-another
-	PowerManager.WakeLock wakeLock ;
+	//PowerManager.WakeLock wakeLock ;
 
 	private static long lastCreationTime = 0;
 	private static final int MIN_CREATION_TIMEOUT = 10000;
@@ -73,14 +76,14 @@ public class main extends BaseGameActivity {//trying to get leaderboards here
 
 		//setContentView(R.layout.main);
 
-		PowerManager pm = (PowerManager) getSystemService(Context.POWER_SERVICE);
-		wakeLock = pm.newWakeLock(PowerManager.SCREEN_BRIGHT_WAKE_LOCK, "tag");//TODO screen bright wake lock is deprecated
+		//PowerManager pm = (PowerManager) getSystemService(Context.POWER_SERVICE);
+		//wakeLock = pm.newWakeLock(PowerManager.SCREEN_BRIGHT_WAKE_LOCK, "tag");//TODO screen bright wake lock is deprecated
 
 		//NOT WORK - the following made the app crash when i started the game
 		//trying the below to get rid of "SCREEN_BRIGHT_WAKE_LOCK deprecated" message
 		//wakeLock = pm.newWakeLock(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON, "tag");
 
-		wakeLock.acquire();
+		//wakeLock.acquire();
 
 		SoundManager.getInstance();
 		SoundManager.initSounds(this);
@@ -109,7 +112,7 @@ public class main extends BaseGameActivity {//trying to get leaderboards here
 			Log.d("debug", "onDestroy main");
 		isRunning = false;
 
-		wakeLock.release();
+		//wakeLock.release();
 		musicPlayerLoop.release();
 		SoundManager.cleanup();
 		if (mGameView != null) mGameView.cleanup();
@@ -121,7 +124,7 @@ public class main extends BaseGameActivity {//trying to get leaderboards here
 	public void onResume() {
 		if(Settings.RHDEBUG)
 			Log.d("debug", "onResume");
-		wakeLock.acquire();
+		//wakeLock.acquire();
 		if(MusicLoopStartedForFirstTime)
 			musicPlayerLoop.start();
 		super.onResume();
@@ -147,7 +150,7 @@ public class main extends BaseGameActivity {//trying to get leaderboards here
 	public void onPause() {
 		if(Settings.RHDEBUG)
 			Log.d("debug", "onPause");
-		wakeLock.release();
+		//wakeLock.release();
 		musicPlayerLoop.pause();
 		super.onPause();
 	}
@@ -195,6 +198,11 @@ public class main extends BaseGameActivity {//trying to get leaderboards here
 		private Bitmap resetButtonImg = null;
 		private Button saveButton = null;
 		private Bitmap saveButtonImg = null;
+
+		//for testing pause button
+		private Button saveButton2 = null;
+		private Bitmap saveButtonImg2 = null;
+
 		private RHDrawable blackRHD = null;
 		private Bitmap blackImg = null;
 		private RHDrawable gameLoadingRHD = null;
@@ -236,6 +244,7 @@ public class main extends BaseGameActivity {//trying to get leaderboards here
 		private boolean nineKwasplayed = false;
 		private boolean gameIsLoading = true;
 
+		//for pause button CHANCE
 
 		public RunnersHighView(Context context) {
 			super(context);
@@ -254,6 +263,10 @@ public class main extends BaseGameActivity {//trying to get leaderboards here
 
 		public void cleanup() {
 			if (saveButtonImg != null) saveButtonImg.recycle();
+
+			//for pause button testing
+			if (saveButton2 != null) saveButtonImg2.recycle();
+
 			if (blackImg != null) blackImg.recycle();
 			if (resetButtonImg!= null) resetButtonImg.recycle();
 			if (background != null) background.cleanup();
@@ -279,15 +292,15 @@ public class main extends BaseGameActivity {//trying to get leaderboards here
 			getWindowManager().getDefaultDisplay().getMetrics(metrics);
 
 			Display display = ((WindowManager) getSystemService(Context.WINDOW_SERVICE)).getDefaultDisplay();
-			width= display.getWidth();  //TODO method getWidth is deprecated
-			height= Math.abs(rectgle.top - rectgle.bottom);
+			width = display.getWidth();  //TODO method getWidth is deprecated
+			height = Math.abs(rectgle.top - rectgle.bottom);
 
 			if(Settings.RHDEBUG)
 				Log.d("debug", "displaywidth: " + width + ", displayheight: " + height);
 
-			Util.mScreenHeight=height;
-			Util.mScreenWidth=width;
-			Util.mWidthHeightRatio=width/height;
+			Util.mScreenHeight = height;
+			Util.mScreenWidth = width;
+			Util.mWidthHeightRatio = width / height;
 
 
 			BitmapFactory.Options options = new BitmapFactory.Options();
@@ -397,7 +410,7 @@ public class main extends BaseGameActivity {//trying to get leaderboards here
 			resetButton.loadBitmap(resetButtonImg);
 			mRenderer.addMesh(resetButton);
 
-			saveButtonImg =Util.loadBitmapFromAssets("game_button_save.png");
+			saveButtonImg = Util.loadBitmapFromAssets("game_button_save.png");
 			saveButton = new Button(
 					Util.getPercentOfScreenWidth(42),
 					height-Util.getPercentOfScreenHeight(18),
@@ -406,6 +419,18 @@ public class main extends BaseGameActivity {//trying to get leaderboards here
 					Util.getPercentOfScreenHeight(13));
 			saveButton.loadBitmap(saveButtonImg);
 			mRenderer.addMesh(saveButton);
+
+			//for pause button CHANCE
+			saveButtonImg2 = Util.loadBitmapFromAssets("game_button_save.png");
+			saveButton2 = new Button(
+					Util.getPercentOfScreenWidth(5),
+					height-Util.getPercentOfScreenHeight(40),
+					1,
+					Util.getPercentOfScreenWidth(26),
+					Util.getPercentOfScreenHeight(13));
+			saveButton2.loadBitmap(saveButtonImg2);
+			mRenderer.addMesh(saveButton2);
+
 
 			player = new Player(getApplicationContext(), mRenderer, height);
 			sleep();
@@ -523,7 +548,7 @@ public class main extends BaseGameActivity {//trying to get leaderboards here
 				sleep(10);
 
 			timeAtLastSecond = System.currentTimeMillis();
-			runCycleCounter=0;
+			runCycleCounter = 0;
 
 			if(Settings.RHDEBUG)
 				Log.d("debug", "RunnersHighView initiation ended");
@@ -604,7 +629,7 @@ public class main extends BaseGameActivity {//trying to get leaderboards here
 					return;
 				}
 
-				MusicLoopStartedForFirstTime=true;
+				MusicLoopStartedForFirstTime = true;
 
 			}
 			catch (InterruptedException e)
@@ -616,7 +641,7 @@ public class main extends BaseGameActivity {//trying to get leaderboards here
 			if(Settings.RHDEBUG)
 				Log.d("debug", "run method after try catch");
 
-			blackRHD.z=-1.0f;
+			blackRHD.z =- 1.0f;
 			blackRHD.setColor(0, 0, 0, 0);
 			//mRenderer.removeMesh(blackRHD); //TODO: find a way to remove mesh without runtime errors
 
@@ -676,9 +701,14 @@ public class main extends BaseGameActivity {//trying to get leaderboards here
 						resetButton.z = 1.0f;
 						saveButton.setShowButton(true);
 						saveButton.z = 1.0f;
+
+						//for pause button
+						saveButton2.setShowButton(false);
+
+
 						if(!deathSoundPlayed){
 							SoundManager.playSound(7, 1, 0.5f, 0.5f, 0);
-							deathSoundPlayed=true;
+							deathSoundPlayed = true;
 
 							System.gc(); //do garbage collection
 
@@ -750,7 +780,7 @@ public class main extends BaseGameActivity {//trying to get leaderboards here
 					if (Settings.SHOW_FPS) mCounterGroup.tryToSetCounterTo(mRenderer.fps);
 					else mCounterGroup.tryToSetCounterTo(totalScore);
 
-					if(totalScore>=9000 && !nineKwasplayed)
+					if(totalScore >= 9000 && !nineKwasplayed)
 					{
 						nineKwasplayed=true;
 						SoundManager.playSound(9, 1, 1000, 1000, 0);
@@ -933,6 +963,8 @@ public class main extends BaseGameActivity {//trying to get leaderboards here
 							saveButton.setShowButton(false);
 							saveButton.z = -2.0f;
 							saveButton.x = saveButton.lastX;
+
+
 							mCounterGroup.resetCounter();
 							scoreWasSaved=false;
 							deathSoundPlayed=false;
@@ -956,6 +988,22 @@ public class main extends BaseGameActivity {//trying to get leaderboards here
 							saveButton.x = -5000;
 
 							saveScore(totalScore);
+
+							//play save sound
+							SoundManager.playSound(4, 1);
+							scoreWasSaved=true;
+
+						//for pause button
+						} else if(saveButton2.isClicked( event.getX(), Util.getInstance().toScreenY((int)event.getY())  ) && !scoreWasSaved){
+							//save score
+							//saveButton2.setShowButton(false);
+							saveButton2.z = -2.0f;
+							saveButton2.lastX = saveButton2.x;
+							saveButton2.x = -5000;
+
+							//saveScore(totalScore);
+
+							Log.d("pausebutton", "clicked");
 
 							//play save sound
 							SoundManager.playSound(4, 1);

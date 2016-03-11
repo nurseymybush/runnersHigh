@@ -108,9 +108,9 @@ public class Player{
 			if(Settings.RHDEBUG){
 				Log.d("debug", "y: " + (y));
 				Log.d("debug", "y + height: " + (y + height));
-				//Log.d("debug", "velocity: " + velocity);
-				//Log.d("debug", "modifier: " + (MAX_JUMP_HEIGHT - (y - jumpStartY)) / 100.0f);
-				//Log.d("debug", "MAX_JUMP_HEIGHT - (y - jumpStartY): " + (MAX_JUMP_HEIGHT - (y - jumpStartY)));
+				Log.d("debug", "velocity: " + velocity);
+				Log.d("debug", "modifier: " + (MAX_JUMP_HEIGHT - (y - jumpStartY)) / 100.0f);
+				Log.d("debug", "MAX_JUMP_HEIGHT - (y - jumpStartY): " + (MAX_JUMP_HEIGHT - (y - jumpStartY)));
 			}
 
 			if(y - jumpStartY >= MAX_JUMP_HEIGHT)

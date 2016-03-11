@@ -230,7 +230,7 @@ public class Menu extends Activity implements
 				if (isSignedIn()) {
 					int maxNumberOfSavedGamesToShow = 5;
 					Intent savedGamesIntent = Games.Snapshots.getSelectSnapshotIntent(mGoogleApiClient,
-							"See My Saves", true, true, maxNumberOfSavedGamesToShow);
+							"See My Saves", true, true, Snapshots.DISPLAY_LIMIT_NONE);
 					startActivityForResult(savedGamesIntent, RC_SAVED_GAMES);
 				} else Log.e("ClickedSavedGames", "not signed in");
 				break;

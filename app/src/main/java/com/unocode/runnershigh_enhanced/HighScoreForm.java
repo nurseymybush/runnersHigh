@@ -91,8 +91,8 @@ public class HighScoreForm extends Activity {
         });        
         
         // Set Checkbox true if device is connected to internet
-        if(isOnline())
-        	checkboxPushOnline.setChecked(true);
+        //if(isOnline())
+        //	checkboxPushOnline.setChecked(true);
         
         // Get Score
         score = (savedInstanceState == null) ? null : (Integer) savedInstanceState.getSerializable("score");
@@ -123,13 +123,14 @@ public class HighScoreForm extends Activity {
         if(name.length() > 0) { 
                     
         	// Save score online
-        	if(checkboxPushOnline.isChecked()) {        	      		
+        	/*
+			if(checkboxPushOnline.isChecked()) {
         		
         		if(!isOnline()) {
         			highScoreAdapter.toastMessage(R.string.hs_error_no_internet);
         		} else {
 
-					/* CHANCE CODE */
+					// CHANCE CODE
 					HashMap<String, String> nameValuePairs = new HashMap<String, String>(2);
 					nameValuePairs.put("name", name);
 					nameValuePairs.put("score", score);
@@ -141,7 +142,7 @@ public class HighScoreForm extends Activity {
 
 					isonline = 1;
         		}
-        	}
+        	}*/
         	
         	// Save HS locally
         	try {
