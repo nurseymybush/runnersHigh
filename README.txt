@@ -1,3 +1,6 @@
+3/12/2016
+*removed references to sugarORM in build.grade, manifest.xml and main.java - decided not to use. data needing to save is too small to warrant use
+
 3/11/2016
 *added button to game screen that is helping me learn about how to add a pause and mute button to game screen - so basically not functional yet but present
 *removed permission for wake lock - crashed app when running main game loop until i commented out all the wake lock code - my thoughts are wake locks are not needed for games

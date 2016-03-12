@@ -1,7 +1,5 @@
 package com.unocode.runnershigh_enhanced;
 
-import android.app.ActionBar;
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -12,21 +10,17 @@ import android.graphics.Rect;
 import android.media.MediaPlayer;
 import android.opengl.GLSurfaceView;
 import android.os.Bundle;
-import android.os.PowerManager;
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.Display;
 import android.view.MotionEvent;
-import android.view.View;
-import android.view.ViewGroup;
+
 import android.view.Window;
 import android.view.WindowManager;
-import android.widget.LinearLayout;
 
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.games.Games;
 import com.google.example.games.basegameutils.BaseGameActivity;
-import com.orm.SugarRecord;
 import com.unocode.highscore.HighscoreAdapter;
 
 //public class main extends Activity {
@@ -431,7 +425,6 @@ public class main extends BaseGameActivity {//trying to get leaderboards here
 			saveButton2.loadBitmap(saveButtonImg2);
 			mRenderer.addMesh(saveButton2);
 
-
 			player = new Player(getApplicationContext(), mRenderer, height);
 			sleep();
 
@@ -440,9 +433,6 @@ public class main extends BaseGameActivity {//trying to get leaderboards here
 
 			if(Settings.RHDEBUG)
 				Log.d("debug", "after player creation");
-//			loadingDialog = new ProgressDialog( context );
-//		    loadingDialog.setProgressStyle(0);
-//		    loadingDialog.setMessage("Loading Highscore ...");
 
 			if(Settings.RHDEBUG)
 				Log.d("debug", "after loading messages");
