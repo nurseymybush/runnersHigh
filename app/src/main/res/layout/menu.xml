@@ -102,6 +102,16 @@
 			android:text="@string/quests_button_text"
 			android:visibility="gone"/>
 
+		<!-- Exit Button -->
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/exit_button"
+			android:text="@string/exit_button_text"
+			android:layout_gravity="bottom|end"/>
+
 	</LinearLayout>
+
+
 	
 </LinearLayout>

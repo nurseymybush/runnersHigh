@@ -26,7 +26,6 @@ import com.unocode.highscore.HighscoreAdapter;
 //public class main extends Activity {
 public class main extends BaseGameActivity {//trying to get leaderboards here
 	//http://stackoverflow.com/questions/25031669/passing-the-googleapiclient-obj-from-one-activity-to-another
-	//PowerManager.WakeLock wakeLock ;
 
 	private static long lastCreationTime = 0;
 	private static final int MIN_CREATION_TIMEOUT = 10000;
@@ -34,8 +33,6 @@ public class main extends BaseGameActivity {//trying to get leaderboards here
 	/* for shared preferences */
 	public static final String MyPREFERENCES = "MyPrefs" ;
 
-
-	//MediaPlayer musicPlayerIntro;
 	MediaPlayer musicPlayerLoop;
 	boolean MusicLoopStartedForFirstTime = false;
 
@@ -44,7 +41,7 @@ public class main extends BaseGameActivity {//trying to get leaderboards here
 
 	private static final int SLEEP_TIME = 300;
 
-	/* variables for holding achievment values */
+	// variables for holding achievement values
 	private int hitSpiderweb = 0;
 	private int totalHitFire = 0;
 	private int totalBonusItems = 0;
@@ -87,13 +84,15 @@ public class main extends BaseGameActivity {//trying to get leaderboards here
 
 		musicPlayerLoop.setLooping(true);
 		musicPlayerLoop.seekTo(0);
-		musicPlayerLoop.setVolume(0.5f, 0.5f);
+		musicPlayerLoop.setVolume(0.5f, 0.5f);//TODO here is where i should try to mute volume or at least this is it
 
 
 		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
 		isRunning = true;
-		mGameView = new RunnersHighView(getApplicationContext());
+		//mGameView = new RunnersHighView(getApplicationContext());
+		mGameView = new RunnersHighView(this);
+
 		setContentView(mGameView);
 
 		//for google play games leaderboards
@@ -119,9 +118,12 @@ public class main extends BaseGameActivity {//trying to get leaderboards here
 		if(Settings.RHDEBUG)
 			Log.d("debug", "onResume");
 		//wakeLock.acquire();
+		//isRunning = true; //trying this for pause - DIDNT WORK - game was already stopped
+
 		if(MusicLoopStartedForFirstTime)
 			musicPlayerLoop.start();
 		super.onResume();
+		//mGameView.resume();
 
 	}
 
@@ -145,8 +147,11 @@ public class main extends BaseGameActivity {//trying to get leaderboards here
 		if(Settings.RHDEBUG)
 			Log.d("debug", "onPause");
 		//wakeLock.release();
+		//isRunning = false;//trying this for pause - DIDNT WORK stopped the game entirely
 		musicPlayerLoop.pause();
 		super.onPause();
+		//mGameView.pause();
+
 	}
 
 	public void saveScore(int score) {
@@ -181,6 +186,7 @@ public class main extends BaseGameActivity {//trying to get leaderboards here
 	}
 
 
+/*
 	public class RunnersHighView extends GLSurfaceView implements Runnable {
 		private Player player = null;
 		private Level level;
@@ -254,6 +260,23 @@ public class main extends BaseGameActivity {//trying to get leaderboards here
 //			
 //			initialize();
 		}
+
+		*/
+/**
+		 * Start or resume the game.
+		 *//*
+
+		public void resume() {
+		}
+
+		*/
+/**
+		 * Pause the game loop
+		 *//*
+
+		public void pause() {
+		}
+
 
 		public void cleanup() {
 			if (saveButtonImg != null) saveButtonImg.recycle();
@@ -419,7 +442,7 @@ public class main extends BaseGameActivity {//trying to get leaderboards here
 			saveButton2 = new Button(
 					Util.getPercentOfScreenWidth(5),
 					height-Util.getPercentOfScreenHeight(40),
-					1,
+					-2,
 					Util.getPercentOfScreenWidth(26),
 					Util.getPercentOfScreenHeight(13));
 			saveButton2.loadBitmap(saveButtonImg2);
@@ -521,7 +544,7 @@ public class main extends BaseGameActivity {//trying to get leaderboards here
 			mRenderer.addMesh(blackRHD);
 
 			gameLoadingRHD.z = -1.0f;
-
+			saveButton2.z = 1.0f;//makes the button appear only after the game screen has faded in
 
 			mHighscoreMarkBitmap = Util.loadBitmapFromAssets("game_highscoremark.png");
 
@@ -639,7 +662,9 @@ public class main extends BaseGameActivity {//trying to get leaderboards here
 			long currentTimeTaken=0;
 			long starttime = 0;
 
-			/* chances values for getting time played - more accurate than milliseconds */
+			*/
+/* chances values for getting time played - more accurate than milliseconds *//*
+
 			long startTimeNano = 0;
 			long endtimeNano = 0;
 
@@ -685,7 +710,9 @@ public class main extends BaseGameActivity {//trying to get leaderboards here
 
 				} else {
 					//TODO checks if player dead - on second thought this is run a lot of time
-					if(player.y < 0){
+					if(player.y < 0) {
+
+
 						doUpdateCounter=false;
 						resetButton.setShowButton(true);
 						resetButton.z = 1.0f;
@@ -702,7 +729,9 @@ public class main extends BaseGameActivity {//trying to get leaderboards here
 
 							System.gc(); //do garbage collection
 
-							/* setting up the cumulative values */
+							*/
+/* setting up the cumulative values *//*
+
 							cumulativeScore += totalScore;
 							totalBonusItems += player.getBonusItems();
 							totalBonusScore += player.getBonusScore();
@@ -711,11 +740,15 @@ public class main extends BaseGameActivity {//trying to get leaderboards here
 							totalDeaths++;
 
 
-							/* Getting the time played here */
+							*/
+/* Getting the time played here *//*
+
 							endtimeNano = System.nanoTime();
 							totalTimePlayed += ((endtimeNano - startTimeNano) / nanoMagic);
 
-							/* saving to shared preferences */
+							*/
+/* saving to shared preferences *//*
+
 							SharedPreferences sharedpreferences = getSharedPreferences(MyPREFERENCES, Context.MODE_PRIVATE);
 							SharedPreferences.Editor editor = sharedpreferences.edit();
 
@@ -812,7 +845,7 @@ public class main extends BaseGameActivity {//trying to get leaderboards here
 				}
 			}
 
-			if(Settings.RHDEBUG)
+			//if(Settings.RHDEBUG)
 				Log.d("debug", "run method ended");
 
 		}
@@ -984,21 +1017,13 @@ public class main extends BaseGameActivity {//trying to get leaderboards here
 							scoreWasSaved=true;
 
 						//for pause button
-						} else if(saveButton2.isClicked( event.getX(), Util.getInstance().toScreenY((int)event.getY())  ) && !scoreWasSaved){
-							//save score
-							//saveButton2.setShowButton(false);
-							saveButton2.z = -2.0f;
-							saveButton2.lastX = saveButton2.x;
-							saveButton2.x = -5000;
-
-							//saveScore(totalScore);
-
-							Log.d("pausebutton", "clicked");
-
-							//play save sound
-							SoundManager.playSound(4, 1);
-							scoreWasSaved=true;
 						}
+
+					} else if(saveButton2.isClicked( event.getX(), Util.getInstance().toScreenY((int)event.getY())  )){
+
+						Log.d("pausebutton", "clicked");
+						Intent myIntent = new Intent (this.getContext(), Pause.class);
+						startActivity(myIntent);
 
 					} else {
 						player.setJump(true);
@@ -1010,4 +1035,5 @@ public class main extends BaseGameActivity {//trying to get leaderboards here
 			return true;
 		}
 	}
+*/
 }

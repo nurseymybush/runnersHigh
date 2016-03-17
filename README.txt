@@ -1,3 +1,9 @@
+3/17/2016
+*made runnershighview (surface view class) its own file
+*implemented a pause button(right now it doesn’t tell you it is paused - no overlay yet)
+*implemented quit button from inside the game for those that don’t have access to back button(like my moto g)
+*TODO - fix some errors involving the media player - something about subtitles and pause called from some state (i hate red text in my logcat) 
+
 3/12/2016
 *removed references to sugarORM in build.grade, manifest.xml and main.java - decided not to use. data needing to save is too small to warrant use
 

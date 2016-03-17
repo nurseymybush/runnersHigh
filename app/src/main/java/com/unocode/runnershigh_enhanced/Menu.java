@@ -107,6 +107,7 @@ public class Menu extends Activity implements
 		findViewById(R.id.leaderboards_button).setOnClickListener(this);
 		findViewById(R.id.saved_games_button).setOnClickListener(this);
 		findViewById(R.id.quests_button).setOnClickListener(this);
+		findViewById(R.id.exit_button).setOnClickListener(this);
 
 		// Create the Google Api Client with access to Plus and Games
 		mGoogleApiClient = new GoogleApiClient.Builder(this)
@@ -244,6 +245,11 @@ public class Menu extends Activity implements
 				} else Log.e("ClickedAchievements", "not signed in");
 				break;
 
+			case R.id.exit_button:
+				Log.d("ButtonClicked", "exit");
+				finish();
+				break;
+
 			default:
 				Log.e("ClickedSomething", "no idea");
 		}
@@ -300,12 +306,17 @@ public class Menu extends Activity implements
 	}
 
 	@Override
-	protected void onStart() {
+	 protected void onStart() {
 		super.onStart();
 		if (!mInSignInFlow && !mExplicitSignOut) {
 			// auto sign in
 			mGoogleApiClient.connect();
 		}
+	}
+
+	@Override
+	protected void onResume() {
+		super.onResume();
 	}
 
 }

@@ -41,5 +41,10 @@
 		<activity android:name=".Info" 
 				  android:screenOrientation="landscape"
 				  android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+
+        <activity android:name=".Pause"
+                android:theme="@style/CustomDialog"
+                android:excludeFromRecents="true"/>
+
     </application>
 </manifest> 
